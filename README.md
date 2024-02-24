@@ -2,7 +2,7 @@
 
 [![maintainer](https://img.shields.io/badge/maintainer-Waren%20Gonzaga-016eea.svg?logo=github&labelColor=181717&longCache=true&style=flat-square)](https://warengonzaga.com) [![sponsors](https://img.shields.io/badge/sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white&labelColor=181717&style=flat-square)](https://github.com/sponsors/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/xplorescan.svg?logo=github&labelColor=181717&color=green&style=flat-square)](https://github.com/warengonzaga/xplorescan/releases) [![star](https://img.shields.io/github/stars/warengonzaga/xplorescan.svg?&logo=github&labelColor=181717&color=yellow&style=flat-square)](https://github.com/warengonzaga/xplorescan/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/xplorescan.svg?&logo=github&labelColor=181717&style=flat-square)](https://github.com/warengonzaga/xplorescan/blob/main/license)
 
-<!-- [![banner](.github/repo_banner.jpg)](https://warengonzaga.com) -->
+[![banner](.github/repo_banner.jpg)](https://warengonzaga.com)
 
 An all-in-one command-line tool for blockchain explorers, simplifying searches for addresses, transaction hashes, and more without the need to remember multiple explorer URLs for different chains. 🛰️🌐💻
 
