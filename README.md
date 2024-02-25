@@ -2,11 +2,17 @@
 
 [![maintainer](https://img.shields.io/badge/maintainer-Waren%20Gonzaga-016eea.svg?logo=github&labelColor=181717&longCache=true&style=flat-square)](https://warengonzaga.com) [![sponsors](https://img.shields.io/badge/sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white&labelColor=181717&style=flat-square)](https://github.com/sponsors/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/xplorescan.svg?logo=github&labelColor=181717&color=green&style=flat-square)](https://github.com/warengonzaga/xplorescan/releases) [![star](https://img.shields.io/github/stars/warengonzaga/xplorescan.svg?&logo=github&labelColor=181717&color=yellow&style=flat-square)](https://github.com/warengonzaga/xplorescan/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/xplorescan.svg?&logo=github&labelColor=181717&style=flat-square)](https://github.com/warengonzaga/xplorescan/blob/main/license)
 
-[![banner](https://raw.githubusercontent.com/warengonzaga/xplorescan/main/.github/repo_banner.jpg)](https://warengonzaga.com)
+[![banner](https://raw.githubusercontent.com/warengonzaga/xplorescan/main/.github/repo_banner.jpg)](https://github.com/warengonzaga/xplorescan)
 
 An all-in-one command-line tool for blockchain explorers, simplifying searches for addresses, transaction hashes, and more without the need to remember multiple explorer URLs for different chains. 🛰️🌐💻
 
 Have suggestions in mind? [Let me know!](https://github.com/warengonzaga/xplorescan/issues)
+
+## 😎 Demo
+
+Here's the demo how quickly you can explore a wallet address on [Base](https://base.org) using `xplorescan`.
+
+[![demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmlyenV0dWpyOHJ5bDIxb2E2ZDB3aWI2YjIxNWEwM3RoN2Q4YXc1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v73LagsmyafU09TEiV/giphy.gif)](https://github.com/warengonzaga/xplorescan)
 
 ## 🚀 Quick Start
 
@@ -14,6 +20,12 @@ Explore wallet address on eth by running the following command:
 
 ```bash
 npx xplorescan address eth 0x0000000000000000000000000000000000000000
+```
+
+If you don't want to use `npx`, you can install it globally using `npm`:
+
+```bash
+npm i -g xplorescan
 ```
 
 ## ❣️ Inspiration
