@@ -1,5 +1,5 @@
 {
-  "version": "02.24.24.1",
+  "version": "02.25.24.1",
   "explorers": [
     {
       "name": "ethereum",
@@ -19,6 +19,116 @@
         "address": "/address/",
         "tx": "/tx/",
         "block": "/block/"
+      }
+    },
+    {
+      "name": "base",
+      "alias": "base",
+      "url": "https://basescan.org",
+      "scans": {
+        "address": "/address/",
+        "tx": "/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "bsc",
+      "alias": "bnb",
+      "url": "https://bscscan.com",
+      "scans": {
+        "address": "/address/",
+        "tx": "/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "optimism",
+      "alias": "op",
+      "url": "https://optimistic.etherscan.io",
+      "scans": {
+        "address": "/address/",
+        "tx": "/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "arbitrum",
+      "alias": "arb",
+      "url": "https://arbiscan.io",
+      "scans": {
+        "address": "/address/",
+        "tx": "/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "solana",
+      "alias": "sol",
+      "url": "https://explorer.solana.com",
+      "scans": {
+        "address": "/address/",
+        "tx": "/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "zetachain",
+      "alias": "zeta",
+      "url": "https://explorer.zetachain.com",
+      "scans": {
+        "address": "/address/",
+        "tx": "/cosmos/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "crosschainzetachain",
+      "alias": "cczeta",
+      "url": "https://explorer.zetachain.com",
+      "scans": {
+        "address": "/address/",
+        "tx": "/cc/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "cchainavalanche",
+      "alias": "ccava",
+      "url": "https://avascan.info/blockchain/c",
+      "scans": {
+        "address": "/address/",
+        "tx": "/tx/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "bitcoin",
+      "alias": "btc",
+      "url": "https://www.blockchain.com",
+      "scans": {
+        "address": "/explorer/addresses/btc/",
+        "tx": "/explorer/transactions/btc/",
+        "block": "/explorer/blocks/btc/"
+      }
+    },
+    {
+      "name": "bitcoincash",
+      "alias": "bch",
+      "url": "https://blockchair.com/bitcoin-cash",
+      "scans": {
+        "address": "/address/",
+        "tx": "/transaction/",
+        "block": "/block/"
+      }
+    },
+    {
+      "name": "ripple",
+      "alias": "xrp",
+      "url": "https://xrpscan.com",
+      "scans": {
+        "address": "/account/",
+        "tx": "/tx/",
+        "block": "/ledger/"
       }
     }
   ]
