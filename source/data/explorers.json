@@ -1,5 +1,5 @@
 {
-  "version": "02.24.24.1",
+  "version": "02.25.24.1",
   "explorers": [
     {
       "name": "ethereum",
@@ -32,8 +32,8 @@
       }
     },
     {
-      "name": "binancesmartchain",
-      "alias": "bsc",
+      "name": "bsc",
+      "alias": "bnb",
       "url": "https://bscscan.com",
       "scans": {
         "address": "/address/",
