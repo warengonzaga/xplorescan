@@ -1,7 +1,18 @@
 {
 	"name": "xplorescan",
 	"description": "Never memorize a blockchain explorer again.",
-	"version": "0.1.1",
+	"keywords": [
+		"blockchain",
+		"scanner",
+		"explorer",
+		"cli",
+		"tool",
+		"command-line",
+		"web3",
+		"ethereum"
+	],
+	"version": "0.1.2",
+	"author": "Waren Gonzaga",
 	"license": "GPL-3.0",
 	"bin": "dist/cli.js",
 	"type": "module",
