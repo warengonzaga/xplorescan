@@ -1,5 +1,10 @@
-import open from 'open';
 import address from '../commands/address.js';
+import openURL from './handleOpenURL.js';
+
+// list of available commands
+const 
+  address = 'address',
+  contract = 'contract';
 
 /**
  * @param {string} command
@@ -9,20 +14,12 @@ import address from '../commands/address.js';
  * @description Handle the command and call the function for the specific command.
  */
 const handleCommand = (command, chain, input, flags) => {
-  // if the command is address, call the address function and get the URL to open.
-  if (command === 'address') {
+  if (command === address || command === contract) {
     const url = address(chain, input, flags);
-    // console the URL to the user
-    console.log(`Opening ${url}...`);
-    // open the URL in the default browser if success then console log or throw an error if failed
-    open(url).then(() => {
-      console.log(`Opened ${url} in your default browser.`);
-    }).catch((err) => {
-      console.error(`Failed to open ${url} in your default browser. Error: ${err}`);
-    });
+    openURL(url);
   } else {
     console.error('[xplorescan] Command not found. Please use "xplorescan --help" to see the available commands.');
   }
-}
+};
 
 export default handleCommand;
