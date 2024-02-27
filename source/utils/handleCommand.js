@@ -1,11 +1,6 @@
 import address from '../commands/address.js';
 import openURL from './handleOpenURL.js';
 
-// list of available commands
-const 
-  address = 'address',
-  contract = 'contract';
-
 /**
  * @param {string} command
  * @param {string} chain
@@ -14,7 +9,7 @@ const
  * @description Handle the command and call the function for the specific command.
  */
 const handleCommand = (command, chain, input, flags) => {
-  if (command === address || command === contract) {
+  if (command === 'address' || command === 'contract') {
     const url = address(chain, input, flags);
     openURL(url);
   } else {
