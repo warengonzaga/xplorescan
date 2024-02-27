@@ -46,8 +46,18 @@ npx xplorescan <command> <chain> <input>
 
 ### 🏠 Address Command
 
+To explore a wallet address, use the following command:
+
 ```bash
 npx xplorescan address <chain> <wallet address>
+```
+
+### 📜 Contract Command
+
+To explore a smart contract, use the following command:
+  
+```bash
+npx xplorescan contract <chain> <contract address>
 ```
 
 _More features coming soon..._
