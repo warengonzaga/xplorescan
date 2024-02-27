@@ -1,6 +1,9 @@
 {
 	"name": "xplorescan",
 	"description": "Never memorize a blockchain explorer again.",
+	"version": "0.1.5",
+	"author": "Waren Gonzaga",
+	"license": "GPL-3.0",
 	"keywords": [
 		"blockchain",
 		"scanner",
@@ -11,9 +14,14 @@
 		"web3",
 		"ethereum"
 	],
-	"version": "0.1.5",
-	"author": "Waren Gonzaga",
-	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/warengonzaga/xplorescan.git"
+	},
+	"bugs": {
+		"url": "https://github.com/warengonzaga/xplorescan/issues"
+	},
+	"homepage": "https://xplorescan.xyz",
 	"bin": "dist/cli.js",
 	"type": "module",
 	"engines": {
