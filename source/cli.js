@@ -11,8 +11,9 @@ const cli = meow(
 			$ xplorescan <command> <chain> <input> <flags>
 
 		Commands
-			address - To scan a wallet address.
-			tx - To scan a transaction hash.
+			address, a - To scan a wallet address.
+			contract, c - To scan a contract address.
+			transaction, tx - To scan a transaction hash.
 
 		Chain
 			eth, ethereum - Ethereum
@@ -25,6 +26,9 @@ const cli = meow(
 
 		Examples
 			$ xplorescan address eth 0x1234567890abcdef1234567890abcdef12345678
+
+		Contribute
+			https://github.com/warengonzaga/xplorescan
 	`,
 	{
 		importMeta: import.meta,
