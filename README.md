@@ -60,12 +60,60 @@ To explore a smart contract, use the following command:
 npx xplorescan contract <chain> <contract address>
 ```
 
+### 📄 Transaction Command
+
+To explore a transaction, use the following command:
+
+```bash
+npx xplorescan transaction <chain> <transaction hash>
+```
+
 _More features coming soon..._
 
-- [ ] Transaction Command
+- [x] Transaction Command
 - [ ] Block Command
 - [ ] ENS Command
 - [ ] Web App (GUI) 👀
+
+## 💻 Development
+
+To run the project locally, you need to have [Node.js](https://nodejs.org) installed on your machine. Then, you can clone the repository and install the dependencies:
+
+```bash
+git clone
+cd xplorescan
+yarn install
+```
+
+To run the project, you can use the following command:
+
+```bash
+yarn dev
+```
+
+To build the project, you can use the following command:
+
+```bash
+yarn build
+```
+
+To setup the CLI on your local machine, you can use the following command:
+
+```bash
+npm install -g .
+```
+
+If you are in a Linux environment such as WSL on Windows 11, you can use the following command to setup the project:
+
+```bash
+yarn setup:ubuntu
+```
+
+You can also reset the setup using the following command:
+
+```bash
+yarn reset:ubuntu
+```
 
 ## 🎯 Contributing
 
