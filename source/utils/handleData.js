@@ -1,4 +1,4 @@
-import explorersData from '../data/explorers.json';
+import explorersData from '../data/explorers_mainnet.json';
 import { version, description } from '../../package.json';
 
 export default function scan(chain) {

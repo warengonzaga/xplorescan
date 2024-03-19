@@ -18,11 +18,12 @@ const cli = meow(
 		Chain
 			eth, ethereum - Ethereum
 			matic, polygon - Polygon
-			bnb, bsc - Binance Smart Chain
+			base, base - Base Chain
 			etc...
 
 		Flags
-			No flags for now...
+			--version, -v - Show the version of the CLI.
+			--help, -h - Show the help menu for the CLI.
 
 		Examples
 			$ xplorescan address eth 0x1234567890abcdef1234567890abcdef12345678
