@@ -21,7 +21,6 @@ export default function App() {
 				{description}
 			</Gradient>
 			<Text>
-				<Newline/>
 				Version: <Text color='green'>{version}</Text> | 
 				Database: <Text color='yellow'>{dbversion}</Text> | 
 				By <Text color='cyan'>Waren Gonzaga</Text>
