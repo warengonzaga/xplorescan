@@ -115,6 +115,10 @@ You can also reset the setup using the following command:
 yarn reset:ubuntu
 ```
 
+## ⚙️ Project Activity
+
+![project activity](https://repobeats.axiom.co/api/embed/552f3ea12e0f4afe85dac871ae8c57c554608f9a.svg "Repobeats analytics image")
+
 ## 🎯 Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the `dev` branch. Thank you!
