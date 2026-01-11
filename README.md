@@ -57,7 +57,7 @@ npx xplorescan address <chain> <wallet address>
 ### 📜 Contract Command
 
 To explore a smart contract, use the following command:
-  
+
 ```bash
 npx xplorescan contract <chain> <contract address>
 ```
@@ -119,7 +119,7 @@ yarn reset:ubuntu
 
 ## ⚙️ Project Activity
 
-![activity](https://repobeats.axiom.co/api/embed/552f3ea12e0f4afe85dac871ae8c57c554608f9a.svg "Repobeats analytics image")
+![activity](https://repobeats.axiom.co/api/embed/552f3ea12e0f4afe85dac871ae8c57c554608f9a.svg 'Repobeats analytics image')
 
 ## 🎯 Contributing
 

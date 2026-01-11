@@ -33,7 +33,7 @@ const cli = meow(
 	`,
 	{
 		importMeta: import.meta,
-		flags: {} // no flags for now
+		flags: {}, // no flags for now
 	},
 );
 
@@ -43,7 +43,7 @@ const chain = cli.input[1];
 const input = cli.input[2];
 const flags = cli.flags;
 
-render(<App/>);
+render(<App />);
 
 // handle the command
 if (command) {
