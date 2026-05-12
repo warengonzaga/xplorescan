@@ -59,7 +59,7 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"import-jsx": "^5.0.0",
 		"ink-testing-library": "^4.0.0",
-		"prettier": "^2.8.7",
+		"prettier": "^3.8.3",
 		"xo": "^0.53.1"
 	},
 	"ava": {
