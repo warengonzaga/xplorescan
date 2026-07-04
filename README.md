@@ -8,6 +8,8 @@ An all-in-one command-line tool for blockchain explorers, simplifying searches f
 
 Have suggestions in mind? [Let me know!](https://github.com/warengonzaga/xplorescan/issues)
 
+Like this project? **Leave a star**! ⭐⭐⭐⭐⭐
+
 ## 😎 Demo
 
 Here's the demo how quickly you can explore a wallet address on [Base](https://base.org) using `xplorescan`.
@@ -55,7 +57,7 @@ npx xplorescan address <chain> <wallet address>
 ### 📜 Contract Command
 
 To explore a smart contract, use the following command:
-  
+
 ```bash
 npx xplorescan contract <chain> <contract address>
 ```
@@ -115,6 +117,10 @@ You can also reset the setup using the following command:
 yarn reset:ubuntu
 ```
 
+## ⚙️ Project Activity
+
+![activity](https://repobeats.axiom.co/api/embed/552f3ea12e0f4afe85dac871ae8c57c554608f9a.svg 'Repobeats analytics image')
+
 ## 🎯 Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the `dev` branch. Thank you!
@@ -125,12 +131,15 @@ Read the project's [contributing guide](./contributing.md) for more info.
 
 Please report any issues and bugs by [creating a new issue here](https://github.com/warengonzaga/xplorescan/issues/new/choose), also make sure you're reporting an issue that doesn't exist. Any help to improve the project would be appreciated. Thanks! 🙏✨
 
-## 🙏 Sponsor and Support
+## 🙏 Sponsor
 
-> Love what I do? Send me some [love](https://github.com/sponsors/warengonzaga) or [coffee](https://buymeacoff.ee/warengonzaga)!? 💖☕
->
-> Can't send love or coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
-> Your support will help me to continue working on open-source projects like this. 🙏😇
+Like this project? **Leave a star**! ⭐⭐⭐⭐⭐
+
+Want to support my work and get some perks? [Become a sponsor](https://github.com/sponsors/warengonzaga)! 💖
+
+Or, you just love what I do? [Buy me a coffee](https://buymeacoffee.com/warengonzaga)! ☕
+
+Recognized my open-source contributions? [Nominate me](https://stars.github.com/nominate) as GitHub Star! 💫
 
 ## 📋 Code of Conduct
 
