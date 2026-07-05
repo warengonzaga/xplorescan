@@ -61,7 +61,7 @@
 		"import-jsx": "^5.0.0",
 		"ink-testing-library": "^4.0.0",
 		"prettier": "^3.4.2",
-		"xo": "^0.60.0"
+		"xo": "^3.0.2"
 	},
 	"ava": {
 		"environmentVariables": {
