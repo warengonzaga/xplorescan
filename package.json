@@ -54,7 +54,7 @@
 		"@vdemedes/prettier-config": "^2.0.1",
 		"ava": "^8.0.1",
 		"babel-plugin-inline-json-import": "^0.3.2",
-		"chalk": "^5.4.1",
+		"chalk": "^6.0.0",
 		"eslint-config-xo-react": "^0.31.0",
 		"eslint-plugin-react": "^7.37.2",
 		"eslint-plugin-react-hooks": "^7.1.1",
