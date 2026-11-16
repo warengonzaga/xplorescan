@@ -1445,9 +1445,9 @@ auto-bind@^5.0.1:
   integrity sha512-ooviqdwwgfIfNmDwo94wlshcdzfO64XV0Cg6oDsDYBJfITDz1EngD2z7DkbvCWn+XIMsIqW27sEVF6qcpJrRcg==
 
 ava@^8.0.1:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-8.3.0.tgz#de4cdd733e04a38c0d3f20923dab3d1c95b48bd2"
-  integrity sha512-Tr/p0fmC+oCJo5+m1oJdpmBxC1OO57xtVKlJfbN0gkz31yofpk08jl4Hzx654RdKq1FPc0XYiHF4ZzdqR+87gg==
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-8.4.0.tgz#c5aa69816f6944746cccafbd2bc0db96ca8d1063"
+  integrity sha512-thHHhRJa6al6+45y9L8ei7u1QYHFKpt5S3jy2A2t/bd9EoJ9wIEJgLuyXuRg5tEnwryqWxLuu4ig+QSPx6yfUA==
   dependencies:
     "@vercel/nft" "^1.11.0"
     acorn "^8.19.0"
@@ -4992,9 +4992,9 @@ prettier-linter-helpers@^1.0.1:
     fast-diff "^1.1.2"
 
 prettier@^3.4.2, prettier@^3.9.6:
-  version "3.9.10"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.10.tgz#ac378e432f1a7381518f2e080816bbaefa38d585"
-  integrity sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.10.1.tgz#00b1c1872f9650ec22093d5bdafdca0fe6760f77"
+  integrity sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==
 
 pretty-ms@^10.0.0:
   version "10.0.0"
